@@ -1,0 +1,7 @@
+.container{
+    display: flex;
+    background-image: url(../assets/laptop.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}

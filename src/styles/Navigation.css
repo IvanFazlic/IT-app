@@ -3,13 +3,6 @@
     padding: 0;
     overflow-x: hidden;
 }
-.container{
-    display: flex;
-    background-image: url(../assets/laptop.jpg);
-    background-size: cover;
-    height: 90vh;
-    width: 100vw;
-}
 .centriranTekst{
     margin: auto;
     text-align: center;
@@ -61,7 +54,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 300ms;
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.4);
 }
 
 .div1{
@@ -76,10 +69,6 @@
 .div2{
     display: flex;
     height: auto;
-
-    /* width: 200px;
-    height: 100px;
-    background-color: red; */
 }
 .div2 a{
     margin-right: 3em;
@@ -96,7 +85,10 @@
     color: gray;
 }
 .white{
-    height: 100vh;
+    height: 20vh;
     width: 100vw;
-    background-color: white;
+    background-color: black;
+}
+.belaBoja{
+    color: white;
 }

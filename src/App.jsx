@@ -1,12 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
 import Navigation from "./components/Navigation"
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import PocetnaStranica from './components/PocetnaStranica'
+import Login from './components/Login'
 function App() {
-  return (
-    <Navigation />
-    // nesto drugo
+  return (<>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<>
+              <Navigation />
+              <PocetnaStranica />
+            </>}>
+          </Route>
+          <Route path="/login" element={<Login />}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
