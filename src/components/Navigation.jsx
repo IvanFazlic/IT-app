@@ -13,7 +13,7 @@ export default function NavigationMenu(){
     window.addEventListener("scroll",setFixed)
     return(<>
         <div className="container">
-            <div className={fix ? 'navbar' : 'navbar'}>
+            <div className={fix ? 'navbarScroll' : 'navbar'}>
                 <div className="div1">
                     <h2>IT-gram</h2>
                 </div>
@@ -23,12 +23,21 @@ export default function NavigationMenu(){
                     <a href="" className="SignUp">Sign up</a>
                 </div>
             </div>
-            <h1>
-                Lorem, ipsum. <br></br>
-                Lorem ipsum dolor sit amet consectetur.
-            </h1>
+            <div className="centriranTekst">
+                <h1>
+                    Lorem, ipsum. <br></br>
+                    Lorem ipsum dolor sit amet consectetur.
+                </h1>
+                <br/>
+                <a href="#nekiId">
+                    <button>
+                    Saznaj vise 
+                    </button>
+                </a>
+            </div>
         </div>
         <div className="white">
+            <h2 id="nekiId">nesto</h2>
         </div>
     </>
     )

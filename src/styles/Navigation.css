@@ -10,19 +10,60 @@
     height: 90vh;
     width: 100vw;
 }
-.container h1{
+.centriranTekst{
     margin: auto;
     text-align: center;
     color: white;
 }
+.centriranTekst button{
+    height: 2.4vw;
+    width: 8vw;
+    font-weight: 600;
+    font-size: 12pt;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 300ms;
+}
+.centriranTekst button:hover{
+    height: 2.4vw;
+    width: 8vw;
+    font-weight: 600;
+    font-size: 12pt;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(171, 171, 171);
+    color: black;
+    cursor: pointer;
+}
 .navbar{
-    padding-top: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
     display: flex;
     position: fixed;
     width: 100vw;
     justify-content: space-between;
     align-items: center;
+    transition: 300ms;
 }
+.centriranTekst a{
+    text-decoration: none;
+    color: black;
+}
+.navbarScroll{
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    transition: 300ms;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+}
+
 .div1{
     display: flex;
     padding-left: 2vw;
