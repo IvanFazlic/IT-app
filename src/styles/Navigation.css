@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    display: flex;
+    background-image: url(../assets/laptop.jpg);
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+}
+.container h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.navbar{
+    padding-top: 1vw;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    padding-left: 2vw;
+}
+.div1 h2{
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.div2{
+    display: flex;
+    height: auto;
+
+    /* width: 200px;
+    height: 100px;
+    background-color: red; */
+}
+.div2 a{
+    margin-right: 3em;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+.div2 a:hover{
+    margin-right: 3em;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    color: gray;
+}
+.white{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
