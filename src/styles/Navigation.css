@@ -59,16 +59,19 @@
 
 .div1{
     display: flex;
-    padding-left: 2vw;
+    padding-left: 3vw;
 }
 .div1 h2{
     color: white;
     font-family:'Times New Roman', Times, serif;
     font-size: 2em;
+    padding-left: 0.5em;
+    padding-top: 0.1em;
 }
 .div2{
     display: flex;
     height: auto;
+    padding-top: 0.1em;
 }
 .div2 a{
     margin-right: 3em;
@@ -91,4 +94,7 @@
 }
 .belaBoja{
     color: white;
+}
+.logo{
+    height: 40px;
 }
